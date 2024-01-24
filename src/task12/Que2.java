@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Que2 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		ArrayList<String> list = new ArrayList<String>(); // Creating object of ArrayList<String> 
+public static void main(String[] args) {
+	// TODO Auto-generated method stub
+	ArrayList<String> list = new ArrayList<String>(); // Creating object of ArrayList<String> 
         list.add("A");
         list.add("B");
         list.add("C");
@@ -18,6 +18,10 @@ public class Que2 {
         list.clear();
 
         System.out.println("ArrayList after removing elements: " + list);
-	}
-
+    }
 }
+---------------------------------------------------------------------------------------------------------------------
+OUTPUT:
+	
+ArrayList before removing elements: [A, B, C, D, E]
+ArrayList after removing elements: []
