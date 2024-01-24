@@ -1,25 +1,35 @@
 package com.example.hr;
 
 public class Employee {
-    public String name;
-    public int id;
-    public double salary;
+public String name;
+public int id;
+public double salary;
 
-    public Employee(String name, int id, double salary) {
+public Employee(String name, int id, double salary) 
+    {
         this.name = name;
         this.id = id;
         this.salary = salary;
     }
 
-    public void printName() {
+public void printName() 
+    {
         System.out.println("Employee name: " + name);
     }
     
-    public void printID() {
+public void printID() 
+    {
         System.out.println("Employee ID: " + id);
     }
 
-    public void printSalary() {
+public void printSalary()
+    {
         System.out.println("Employee salary: " + salary);
     }
 }
+----------------------------------------------------------------------------------------------------
+OUTPUT:
+
+Employee name: John Daniel
+Employee ID: 53201
+Employee salary: 85000.0
